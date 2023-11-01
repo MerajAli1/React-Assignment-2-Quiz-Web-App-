@@ -1,0 +1,63 @@
+.question{
+    text-align: center;
+    margin-top: 100px;
+}
+.mainContainer{
+    padding: 50px;
+    background-color: greenyellow;
+    height: 50vh;
+}
+.option-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.next-btn{
+    display: flex;
+    justify-content: center;
+}
+.option-btn {
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px ;
+    padding: 10px;
+    background-color: cyan;
+    color: black;
+}
+.checked {
+    background-color: red;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+input{
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px ;
+    padding: 10px;
+    background-color: rgb(19, 252, 2);
+    color: black;
+}
+span{
+    font-size: 20px;
+}
+.result-container{
+    font-size: 50px;
+    text-align: center;
+}
+.play-again-btn-container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.play-again-btn{
+     margin-top: 5px;
+    border: none;
+    border-radius: 10px ; 
+     padding: 10px; 
+      background-color: rgb(15, 2, 252);
+     color: rgb(255, 255, 255);   
+}
